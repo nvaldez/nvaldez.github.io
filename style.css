@@ -1,0 +1,71 @@
+/* background image taken from General Assamble wall at DC campus */
+/* body Styles */
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* background-position: center center; */
+}
+/* Home page background */
+.home-page {
+    background-image: url(./landing.jpg);
+}
+/* Main styles for the index.html */
+#main{
+
+    color: blanchedalmond;
+    text-align: center;
+}
+
+/* Main content for the resume */
+#resume {
+    width: 800px;
+    margin: 0 auto;
+}
+
+/* Header styles for the resume page */
+#header-resume {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* nav styles */
+nav {
+    list-style-type: none;
+}
+
+/* Landing page navigation style */
+.main-nav {
+    display: inline;
+    margin: 0 20px;
+}
+
+a {
+    color: blanchedalmond;
+}
+
+/* border below the paragraph for the resume */
+.bottom-border {
+    border-bottom: 3px solid black;
+}
+
+/* Adding font weight to the education paragraphs */
+.bold {
+    font-weight: bold;
+}
+
+/* Removing font weight on the education paragraphs */
+.no-bold {
+    font-weight: normal;
+}
+
+/* span moving the graduation year to the right */
+.year{
+    float: right;
+}
+
+.title {
+    margin-top: 0;
+    padding-top: 0;
+}
