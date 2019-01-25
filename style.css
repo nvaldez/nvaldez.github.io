@@ -10,6 +10,11 @@ body {
 .home-page {
     background-image: url(./landing.jpg);
 }
+
+/* Resume page background */
+.resume-page {
+    background-color: blanchedalmond;
+}
 /* Main styles for the index.html */
 #main{
 
@@ -65,7 +70,14 @@ a {
     float: right;
 }
 
-.title {
+.mar-top {
     margin-top: 0;
-    padding-top: 0;
+}
+.mar-bottom {
+    margin-bottom: 0;
+}
+
+.list-row {
+    display: flex;
+    justify-content: space-around;
 }
