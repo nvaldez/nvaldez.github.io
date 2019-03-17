@@ -1,109 +1,115 @@
 /* ================================================LANDING PAGE STYLE====================================== */
 
-/* background image taken from General Assamble wall at DC campus */
+/* background image taken from General Assembly wall at DC campus */
 /* body Styles */
 body {
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 /* Home page background */
 .home-page {
-    background-image: url(./landing.jpg);
+  background-image: url(./landing.jpg);
 }
 
 /* Main styles for the index.html */
-#main{
-
-    color: blanchedalmond;
-    text-align: center;
+#main {
+  color: blanchedalmond;
+  text-align: center;
 }
 
 /* Landing page navigation style */
 .main-nav {
-    display: inline;
-    margin: 0 20px;
+  display: inline;
+  margin: 0 20px;
 }
 
 .landing-page {
-    color: blanchedalmond
+  color: blanchedalmond;
 }
 
 /*================================================GENERAL STYLE FOR ALL PAGES============================= */
 
 .header-nav {
-    color: black;
+  color: black;
 }
 /*================================================RESUME PAGE STYLE======================================= */
 
 /* Resume page background */
 .other-pages-bg {
-    background-color: #e6b873;
+  background-color: #e6b873;
 }
 
+.brand {
+  text-align: justify;
+}
 
 /* Main content for the resume */
 #resume {
-    width: 800px;
-    margin: 0 auto;
+  width: 800px;
+  margin: 0 auto;
 }
 
 /* Header styles for the resume page */
 #header-resume {
-    width: 800px;
-    margin: 0 auto;
-    text-align: center;
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 /* border below the paragraph for the resume */
 .bottom-border {
-    border-bottom: 3px solid black;
+  border-bottom: 3px solid black;
 }
 
 /* Adding font weight to the education paragraphs */
 .bold {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 /* Removing font weight on the education paragraphs */
 .no-bold {
-    font-weight: normal;
+  font-weight: normal;
 }
 
 /* span moving the graduation year to the right */
-.year{
-    float: right;
+.year {
+  float: right;
 }
 
 .mar-top {
-    margin-top: 0;
+  margin-top: 0;
 }
 .mar-bottom {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .list-row {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
+.exp {
+  text-decoration: underline;
+  text-align: center;
+}
 
 /*================================================PROJECT PAGE STYLE======================================= */
 
 /* header for the project page */
 .project-header {
-    width: 800px;
-    margin: 0 auto;
-    text-align: center;
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
 }
 
-.projects-list > a{
-    color: #159e37;
+.projects-list > a {
+  color: #159e37;
 }
 
 /* list of projects container */
 .main-project {
-    width: 800px;
-    margin: 0 auto;
-    text-align: center;
-    margin-top: 60px;
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 60px;
 }
